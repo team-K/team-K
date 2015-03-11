@@ -1,4 +1,30 @@
-p {color:skyblue;}
-body {background:red;}
-<!-->background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#999));
-<-->
+p {color:black;}
+body {
+    text-align:center;
+    animation:bg-color 10s infinite;
+    -webkit-animation:bg-color 10s infinite;
+    };
+@-webkit-keyframes bg-color {
+	0% {background-color:lightblue;}
+	30% {background-color:lightgreen;}
+	60% {background-color:mediumspringgreen;}
+	90% {background-color:lightcoral;}
+	120% {background-color:salmon;}
+	150% {background-color:lightsalmon;}
+	180% {background-color:lightpink;}
+	210% {background-color:coral;}
+	240% {background-color:lightcoral;}
+	270% {background-color:tomato;}
+}
+@keyframes bg-color {
+	0% {background-color:lightblue;}
+	30% {background-color:lightgreen;}
+	60% {background-color:mediumspringgreen;}
+	90% {background-color:lightcoral;}
+	120% {background-color:salmon;}
+	150% {background-color:lightsalmon;}
+	180% {background-color:lightpink;}
+	210% {background-color:coral;}
+	240% {background-color:lightcoral;}
+	270% {background-color:tomato;}
+}
